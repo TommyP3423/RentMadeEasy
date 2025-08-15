@@ -1,15 +1,15 @@
 <template>
   <div>
     <!-- Header -->
-    <header style="display:flex; align-items:center; justify-content:space-between; padding:12px 16px; border-bottom:1px solid #eee;">
+    <header style="display:flex; align-items:center; justify-content:space-between; padding:10px;">
       <!-- Logo -->
-      <div style="display:flex; align-items:center; gap:10px;">
-        <img src="/Logo.png" alt="RentMadeEasy logo" style="height:40px;" />
-        <span style="font-size:20px; font-weight:600;">RentMadeEasy</span>
+      <div style="display:flex; align-items:center;">
+        <img src="/Logo.png" alt="RentMadeEasy" style="height:40px; margin-right:10px;">
+        <span style="font-size:20px; font-weight:bold;">RentMadeEasy</span>
       </div>
 
       <!-- Navigation -->
-      <nav style="display:flex; gap:16px;">
+      <nav style="display:flex; gap:15px;">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
         <NuxtLink to="/contact">Contact</NuxtLink>
@@ -17,17 +17,7 @@
       </nav>
     </header>
 
-    <!-- Page content goes here -->
-    <main style="padding:24px;">
-      <NuxtPage />
-    </main>
+    <!-- Page Content -->
+    <NuxtPage />
   </div>
 </template>
-
-<script setup>
-// no script needed right now
-</script>
-
-<style>
-/* add shared layout styles later if you like */
-</style>
