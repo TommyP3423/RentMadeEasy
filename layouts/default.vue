@@ -1,5 +1,3 @@
-<template>
-  <Navbar></Navbar>
-  <slot></slot>
-  <Footer></Footer>
-</template>
+<header>
+  <img src="/Logo.png" alt="RentMadeEasy" style="height:60px;">
+</header>
